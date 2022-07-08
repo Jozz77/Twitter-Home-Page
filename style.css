@@ -11,6 +11,8 @@ body{
 }
 
 
+
+
 .main-container{
     display: flex;
     text-decoration: none;
@@ -75,17 +77,52 @@ nav{
     width: 1.3rem;
 }
 .happening-content{
-
+    margin-left: 1rem;
 }
 .happening-content-1{
     display: flex;
+    margin-bottom: 1rem;
+}
+.happening-content input{
+    outline: 0;
+    border: 0;
+    background-color: #000000;
+    color: #71767b;
+    font-size: larger;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
 }
 .happening-img img{
     height: auto;
     width: auto;
     border-radius: 50px;
 }
-
+.happening-content-2{
+    display: flex;
+    justify-content: space-between;
+}
+.gifs{
+    display: flex;
+    margin-left: 4rem;
+}
+.gifs img{
+    height: auto;
+    width: 1.3rem;
+    margin-right: 1rem;
+}
+.happening-6-img{
+    opacity: 50%;
+}
+.happening-content-2 button{
+    background-color: #1d9bf0;
+    color: #ffffff;
+    opacity: 50%;
+    margin-top: 0rem;
+    margin-right: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 15px;
+    border: none;
+}
 
 .third-cxontainer{
     width: 30%;
@@ -144,7 +181,7 @@ nav{
     color: #71767b;
 }
 .trends-content{
-    
+    padding-right: 10rem;
 }
 .trends-content h4{
     color: #ffffff;
