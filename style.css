@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 *{
     box-sizing: border-box;
     text-decoration: none;
@@ -5,79 +6,127 @@
     padding: 0;
 }
 body{
-    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    
     background-color: #000000;
     color: #ffffff;
+    /* font-family: 'picowhitealregular';
+    src: url('picowa__-webfont.woff2') format('woff2'),
+         url('picowa__-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal; */
+    font-family: 'Roboto', sans-serif;
 }
 
 
 
 
 .main-container{
+    width: 100%;
     display: flex;
     text-decoration: none;
 
 }
 .icons-container{
-    width: 30%;
-    margin-left: 6rem;
+    width: 15%;
+
     padding-top: 1rem;
     font-size: larger;
-    position: relative;
-    z-index: 3;
+    position: fixed;
     top: 0;
     left: 0;
 }
+.top-icons{
+    margin-bottom: 3rem;
+    margin-left: 7rem;
+}
 .icon{
     display: flex;
-    padding-bottom: 1rem;
+    padding-bottom: 1.5rem;
     
+}
+.icon p{
+    font-size: 1.3rem;
 }
 .icon-img{
     padding-right: 2rem;
 }
 .icon img{
     height: auto;
-    width: 1.3rem;
+    width: 1.7rem;
 }
 .tweet-button button{
     background-color: #1d9bf0;
     color: #ffffff;
     margin-top: 1rem;
-    padding: 0.5rem 3rem;
-    border-radius: 15px;
+    padding: 1rem 5rem;
+    border-radius: 25px;
+    border: none;
 }
 .jo-div{
     display: flex;
-    margin-top: 13rem;
+    margin-top: 14.5rem;
+    margin-left: 5.7rem;
 }
-.jo-div img{
+.jo-img img{
     border-radius: 50px;
+    height: auto;
+    width: 2.5rem;
+}
+.jo-content{
+    margin-left: 0.7rem;
+    margin-right: 0.7rem;
+}
+.jo-div p:first-child{
+    font-size: 1rem;
+    color: #ffffff;
+    padding: 0.2rem;
+}
+.jo-div p{
+    font-size: 0.9rem;
+    color: #71767b;
 }
 .jo-icon img{
     height: auto;
     width: 1.1rem;
+    margin-top: 0.5rem;
 }
 
 
 .content-container{
-    width: 40%;
-    border: solid 1px white;
+    width: 45%;
+    /* border: solid 1px white; */
+    box-shadow: 0 0  0.3rem #71767b;
+    margin-right: 30%;
     position: relative;
+    left: 25%;
 }
 nav{
     display: flex;
     justify-content: space-between;
-    padding: 1rem 0;
+    padding: 1rem 1rem;
     position: sticky;
     top: 0;
+    background-color: #000000;
+    opacity: 90%;
+    
+    
+}
+nav a{
+    color: #71767b;
+}
+nav a:first-child{
+    font-size: x-large;
 }
 #home-icon{
     height: auto;
     width: 1.3rem;
+    opacity: 80%;
 }
 .happening-content{
-    margin-left: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    box-shadow: inset 0 -2px 3px -2px #71767b; 
 }
 .happening-content-1{
     display: flex;
@@ -89,7 +138,7 @@ nav{
     background-color: #000000;
     color: #71767b;
     font-size: larger;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
     margin-left: 1rem;
 }
 .happening-img img{
@@ -123,10 +172,27 @@ nav{
     border-radius: 15px;
     border: none;
 }
+.show{
+    text-align: center;
+    font-size: 1.1rem;
+    margin-top: 0.2rem;
+    padding: 0.9rem 0 0;
+    padding-bottom: 1rem;
+    box-shadow: 
+ 
+    inset 0 -2px 3px -2px #71767b; 
+}
+.show a{
+    color: #1d9bf0;
+}
 
-.third-cxontainer{
-    width: 30%;
+
+
+
+.third-container{
+    width: 40%;
     position: relative;
+    margin-left: -5rem;
     
 }
 .search{
@@ -135,10 +201,10 @@ nav{
     display: flex;
     padding: 0.7rem 0;
     padding-right: 8rem;
-    margin-left: 1rem;
+    margin-left: 2rem;
     margin-top: 0.5rem;
-    margin-bottom: 1rem;
-    width: 75%;
+    margin-bottom: 1.5rem;
+    width: 73%;
     position: sticky;
     top: 0;
     
@@ -162,33 +228,47 @@ nav{
     background-color: #16181c;
     color: #71767b;
     border-radius: 15px;
-    margin-left: 1rem;
+    margin-left: 2rem;
     margin-bottom: 1rem;
-    width: 75%;
-    padding: 1rem 0.5rem 1.5rem;
+    width: 73%;
+    padding: 1rem 0rem 0rem;
 }
-.trends-container h2{
-    
+.trend-container h3{
+    color: #ffffff;
+    font-size: 1.1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+
 }
 .trends{
     display: flex;
     justify-content: space-between;
-    margin: 0 0.5rem;
-    margin-top: 1rem;
+    padding: 0.5rem 1rem ;
+    cursor: pointer;
     
+}
+.trends:hover{
+    background-color: #4b4d4e;
+    transition-duration: 0.2s;
 }
 .trends a{
     color: #71767b;
 }
 .trends-content{
-    padding-right: 10rem;
+    padding-right: ;
 }
 .trends-content h4{
     color: #ffffff;
+    font-size: smaller;
+    padding: 0.4rem 0;
+}
+.trends-content .pi{
+    color: #ffffff;
+    font-size: medium;
     padding-bottom: 0.3rem;
 }
 .trends-content p{
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }
 .trends-icon{
 
@@ -198,33 +278,63 @@ nav{
     width: 1.2rem;
 }
 .trends-show {
-    color: ;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    cursor: pointer;
+}
+.trends-show:hover {
+    background-color: #4b4d4e;
+    transition-duration: 0.2s;
+    border-radius: 0 0 18px 18px;
+    cursor: pointer;
+}
+.trends-show a {
+    color: #1d9bf0;
     padding-top: 2rem;
 }
+
 .who-container{
     background-color: #16181c;
     color: #71767b;
     border-radius: 15px;
-    margin-left: 1rem;
+    margin-left: 2rem;
     margin-bottom: 2rem;
-    width: 75%;
-    padding: 1rem 1rem 1.5rem;
+    width: 73%;
+    padding: 1rem 0rem 0rem;
+}
+.who-container h3{
+    color: #ffffff;
+    font-size: 1.25rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
 }
 .who{
     display: flex;
-    padding-top: 2rem;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+}
+
+.who:hover{
+    background-color: #4b4d4e;
+    transition-duration: 0.2s;
+}
+.who-con-img{
+    display: flex;
+    width: 50%;
 }
 .who-image{
     margin-right: 1rem;
-    width: 15%;
+
 }
 .who-image img{
     border-radius: 50px;
     margin-top: -0.5rem;
 }
 .who-content{
-    margin-right: 3rem;
-    width: 40%;
+    padding-right: 0rem;
 }
 .who-content-1{
     display: flex;
@@ -232,39 +342,57 @@ nav{
 }
 .who-content-1 p{
     color: #ffffff;
+    
 }
 .who-content-1 img{
     height: auto;
     width: 1.1rem;
-    margin-left: -0.5rem;
+    margin-right: -1rem;
 }
 .who-content-3{
     display: flex;
 }
 .who-content-3 p{
     margin-left: 0.3rem;
+    font-size: 0.8rem;
 }
 .who-content-3 img{
     height: auto;
     width: 1rem;
 }
 .who-follow{
-    width: 15%;
-    margin-right: 1rem;
+    width: 20%;
+    margin-right: 1.5rem;
 }
 .who-follow button{
-    padding: 0.5rem 1.5rem;
+    padding: 0.5rem 1rem;
     border-radius: 20px;
+    border: 0;
+}
+.who-show {
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.who-show:hover {
+    background-color: #4b4d4e;
+    transition-duration: 0.2s;
+    border-radius: 0 0 18px 18px;
+    cursor: pointer;
+}
+.who-show a {
+    color: #1d9bf0;
+    padding-top: 2rem;
 }
 .terms{
     width: 70%;
     margin-left: 2.5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 6rem;
     color: #71767b;
 }
 .terms a{
     padding-right: 1rem;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     color: #71767b;
 }
 .terms img{
