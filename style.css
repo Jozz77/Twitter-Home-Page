@@ -9,7 +9,7 @@ body{
     width: 100%;
     
     background-color: #000000;
-    color: #ffffff;
+    color: #e7e9ea;
     /* font-family: 'picowhitealregular';
     src: url('picowa__-webfont.woff2') format('woff2'),
          url('picowa__-webfont.woff') format('woff');
@@ -30,7 +30,7 @@ body{
 .icons-container{
     width: 15%;
 
-    padding-top: 1rem;
+    padding-top: 0.5rem;
     font-size: larger;
     position: fixed;
     top: 0;
@@ -38,12 +38,39 @@ body{
 }
 .top-icons{
     margin-bottom: 3rem;
-    margin-left: 7rem;
+    margin-left: 6rem;
 }
+.hide {
+    display: none;
+  }
+      
+/* .icon:hover + .hide {
+    display: block;
+    text-align: center;
+    background-color: #71767b;
+    color: #ffffff;
+    font-size: small;
+    margin-top: -1.8rem;
+    margin-bottom: 0.3rem;
+    margin-right: -2rem;
+    margin-left: 3rem;
+    padding: 0.2rem 0;
+    border-radius: 2px;
+  } */
 .icon{
     display: flex;
-    padding-bottom: 1.5rem;
+    padding-top: 0.8rem;
+    padding-bottom :0.8rem;
+    padding-left: 1rem;
     
+}
+.icon:hover{
+    cursor: pointer;
+    background-color: #4b4d4e5d;
+    margin-right: -5rem;
+    margin-left: 0rem;
+   border-radius: 35px;
+    padding-right: 4rem;
 }
 .icon p{
     font-size: 1.3rem;
@@ -94,10 +121,11 @@ body{
 
 
 .content-container{
-    width: 45%;
+    width: 50%;
     /* border: solid 1px white; */
     box-shadow: 0 0  0.3rem #71767b;
     margin-right: 30%;
+    padding-bottom: 4rem;
     position: relative;
     left: 25%;
 }
@@ -125,12 +153,12 @@ nav a:first-child{
 }
 .happening-content{
     padding-left: 1rem;
-    padding-bottom: 1rem;
+    padding-bottom: 0.5rem;
     box-shadow: inset 0 -2px 3px -2px #71767b; 
 }
 .happening-content-1{
     display: flex;
-    margin-bottom: 1rem;
+    margin-bottom: 0rem;
 }
 .happening-content input{
     outline: 0;
@@ -145,6 +173,7 @@ nav a:first-child{
     height: auto;
     width: auto;
     border-radius: 50px;
+    
 }
 .happening-content-2{
     display: flex;
@@ -154,13 +183,43 @@ nav a:first-child{
     display: flex;
     margin-left: 4rem;
 }
+.gifs-con{
+    padding: 0.3rem 0 ;
+    margin-right: 0rem;
+    cursor: pointer;
+}
+.gifs-con1{
+    padding: 0.3rem 0 ;
+    margin-right: 0rem;
+    
+}
+.gifs-con p{
+    display: none;
+}
+.gifs-con img:hover{
+    background-color: #1d9cf018;
+    /* opacity: 50%; */
+    border-radius: 80%;
+}
+.gifs-con img:hover + .gifs-hide{
+    display: block;
+    text-align: center;
+    background-color: #71767b;
+    color: #ffffff;
+    font-size: 0.7rem;
+    margin-top: 0.1rem;
+    margin-bottom: -2rem;
+    padding: 0.1rem 0.1rem;
+    border-radius: 2px;
+}
 .gifs img{
     height: auto;
-    width: 1.3rem;
-    margin-right: 1rem;
+    width: 2.3rem;
+   padding: 0.5rem;
 }
 .happening-6-img{
     opacity: 50%;
+    
 }
 .happening-content-2 button{
     background-color: #1d9bf0;
@@ -185,7 +244,165 @@ nav a:first-child{
 .show a{
     color: #1d9bf0;
 }
-
+.first-post{
+    box-shadow: inset 0 -2px 3px -2px #71767b; 
+   
+}
+.top-post{
+    display: flex; 
+    padding-left: 3rem;
+    padding-top: 00.5rem;
+}
+.top-post p{
+    color: #71767b;
+    /* font-size: small; */
+}
+.top-post a{
+    
+    color: #1d9bf0;
+    padding-left: 0.2rem;
+}
+.top-post a:hover{
+    text-decoration: underline;
+}
+.top-post img{
+    height: auto;
+    width: 1.2rem;
+    padding-right: 0.5rem;
+}
+.middle-post{
+    display: flex;
+    padding-left: 0.5rem;
+    padding-top: 1rem;
+}
+.middle-post-1{
+    padding-right: 0.5rem;
+}
+.middle-post-1 img{
+    border-radius: 50%;
+}
+.middle-post-2-first{
+    display: flex;
+    justify-content: space-between;
+}
+.middle-post-2-first img{
+    height: auto;
+    width: 1.1rem;
+}
+.middle-post-2-1{
+    display: flex;
+}
+.dot{
+    display: flex;
+    margin-top: 0.1rem;
+}
+.dot img{
+    height: auto;
+    width: 0.2rem;
+    margin-top: 0.3rem;
+    margin-right: 0.1rem;
+}
+.middle-post-2-1 p:first-child{
+    font-size: 1.1rem;
+    padding-right: 0.5rem;
+}
+.middle-post-2-1 p{
+    padding-top: 0.35rem;
+    font-size: 0.9rem;
+}
+.middle-post-2-1 a{
+    color: #71767b;
+    padding-top: 0.35rem;
+    padding-right: 0.5rem;
+}
+.middle-post-2-second{
+    margin-bottom: 1rem;
+}
+.middle-post-2-second p{
+    font-size: 0.95rem;
+    padding-bottom: 1rem;
+}
+.middle-post-2-second a{
+    color: #1d9bf0;
+}
+.middle-post-2-third img{
+    height: auto;
+    width: 33rem;
+    border-radius: 15px;
+}
+.middle-post-2-fourth{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0 1rem;
+    color: #71767b;
+    padding-right: 6rem;
+}
+.mid-icons{
+    display: flex;
+}
+.mid-icons img{
+    height: auto;
+    width: 1.1rem;
+    margin-right: 0.5rem;
+}
+.second-post{
+    box-shadow: inset 0 -2px 3px -2px #71767b; 
+   
+}
+.second-post .middle-post-1 img{
+    border-radius: 50%;
+    height: auto;
+    width: 3.5rem;
+}
+.second-post .dot p{
+    margin-left: -1rem;
+}
+.second-post .dot img{
+    height: auto;
+    width: 0.2rem;
+    margin-top: 0.3rem;
+    margin-right: 0.1rem;
+}
+.second-post .middle-post-2-first img{
+    margin-right: 1rem;
+}
+.second-post .middle-post-2-second{
+    padding-right: 2rem;
+}
+.second-post .middle-post-2-1{
+    padding-bottom: 0.5rem;
+}
+.second-post .middle-post-2-second p{
+    font-size: 0.95rem;
+    padding-bottom: 0rem;
+}
+.second-post .middle-post-2-fourth{
+    padding: 0rem 0 1rem;
+}
+.second-post .middle-post-2-fourth{
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 0 1rem;
+    color: #71767b;
+    padding-right: 6rem;
+}
+.third-post{
+    box-shadow: inset 0 -2px 3px -2px #71767b; 
+   
+}
+.third-post .middle-post-2-second{
+    padding-top: 0.5rem;
+    margin-bottom: 0rem;
+}
+.third-post .goal{
+    display: flex;
+    
+} 
+.third-post .goal img{
+    padding-top: 0.3rem;
+    margin-left: -0.5rem;
+    margin-right: 0.3rem;
+}
 
 
 
@@ -201,9 +418,9 @@ nav a:first-child{
     display: flex;
     padding: 0.7rem 0;
     padding-right: 8rem;
-    margin-left: 2rem;
+    margin-left: 2.5rem;
     margin-top: 0.5rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
     width: 73%;
     position: sticky;
     top: 0;
@@ -228,7 +445,7 @@ nav a:first-child{
     background-color: #16181c;
     color: #71767b;
     border-radius: 15px;
-    margin-left: 2rem;
+    margin-left: 2.5rem;
     margin-bottom: 1rem;
     width: 73%;
     padding: 1rem 0rem 0rem;
@@ -248,7 +465,7 @@ nav a:first-child{
     
 }
 .trends:hover{
-    background-color: #4b4d4e;
+    background-color: #4b4d4e28;
     transition-duration: 0.2s;
 }
 .trends a{
@@ -264,18 +481,52 @@ nav a:first-child{
 }
 .trends-content .pi{
     color: #ffffff;
-    font-size: medium;
+    padding-top: 0.2rem;
+    font-size: 0.8rem;
     padding-bottom: 0.3rem;
 }
 .trends-content p{
     font-size: 0.8rem;
 }
-.trends-icon{
-
+.trends-icon a{
+    padding: 0.4rem;
+    margin-top: 0rem;
 }
 .trends-icon img{
     height: auto;
     width: 1.2rem;
+    position: relative;
+}
+/* .trends-icon .sec-img {
+    position: absolute;
+    top: 0;
+    right: 2rem;
+    left: 0;
+    bottom: 0;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity .2s;
+  }
+  .trends-icon .sec-img:hover {
+    opacity: 1;
+  } */
+.trends-icon a:hover{
+    background-color: #1d9bf0;
+    opacity: 30%;
+    border-radius: 50px;
+}
+.trends-hide{
+    display: none;
+}
+.trends-icon a:hover + .trends-hide {
+    display: block;
+    text-align: center;
+    background-color: #71767b;
+    color: #ffffff;
+    font-size: 0.7rem;
+    margin-top: 0.6rem;
+    padding: 0.1rem 0.2rem;
+    border-radius: 2px;
 }
 .trends-show {
     padding-left: 1rem;
@@ -284,7 +535,7 @@ nav a:first-child{
     cursor: pointer;
 }
 .trends-show:hover {
-    background-color: #4b4d4e;
+    background-color: #4b4d4e28;
     transition-duration: 0.2s;
     border-radius: 0 0 18px 18px;
     cursor: pointer;
@@ -298,7 +549,7 @@ nav a:first-child{
     background-color: #16181c;
     color: #71767b;
     border-radius: 15px;
-    margin-left: 2rem;
+    margin-left: 2.5rem;
     margin-bottom: 2rem;
     width: 73%;
     padding: 1rem 0rem 0rem;
@@ -318,7 +569,7 @@ nav a:first-child{
 }
 
 .who:hover{
-    background-color: #4b4d4e;
+    background-color: #4b4d4e28;
     transition-duration: 0.2s;
 }
 .who-con-img{
@@ -375,7 +626,7 @@ nav a:first-child{
     padding-bottom: 1rem;
 }
 .who-show:hover {
-    background-color: #4b4d4e;
+    background-color: #4b4d4e28;
     transition-duration: 0.2s;
     border-radius: 0 0 18px 18px;
     cursor: pointer;
@@ -394,6 +645,9 @@ nav a:first-child{
     padding-right: 1rem;
     font-size: 0.8rem;
     color: #71767b;
+}
+.terms a:hover{
+    text-decoration: underline;
 }
 .terms img{
     height: auto;
