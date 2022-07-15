@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+}
+.post1{
+     width: 50%;
+margin: auto;
+    display: flex;
+}
+
+.post2 img{
+    width: 16px;
+    margin-left: 20rem;
+    margin-top: none;
+}
+.post3 img{
+    border-radius: 50%;
+}
+
+.span1{
+    opacity: 0.5;
+}
+.postb{
+    width: 50%;
+    margin: auto;
+}
+.postb img{
+    border-radius: 10px;
+}
+.postc img{
+    width: 32px;
+}
+.postc{
+    display: flex;
+    width: 50%;
+    margin: auto;
+}
+.postc2{
+    padding-left: 10rem;
+}
+.postc3{
+    padding-left: 10rem;
+}
+.postc4{
+    padding-left: 10rem;
+}
+.tableta{
+    width: 50%;
+    margin: auto;
+}
+.tablet1{
+    display: inline-flex;
+}
+.tablet2{
+    display: flex;
+}
+.tablet2 p{
+    
+    display: inline-block;
+}
+.tablet2 img{
+    margin-left: 21rem;
+    width: 16px;
+    height: 16px;
+}
+.tablet3 img{
+    border-radius: 50%;
+}
+.tabletb{
+    margin-top: 32px;
+}
+.tablet2 span{
+    opacity: 0.3;
+}
+.tablet4 img{
+    border-radius: 10px;
+}
+.tablet5{
+    display: flex;
+}
+.tablet5 img{
+    width: 32px;
+}
+.tablet4b{
+    padding-left: 7rem;
+}
+.tablet4c{
+    padding-left: 7rem;
+}
+.tablet4d{
+    padding-left: 7rem;
+}
+.tablet4a{
+    display: flex;
+}
+.tablet4a p{
+    padding: 10px;
+}
+.tablet4b{
+    display: flex;
+}
+.tablet4b p{
+    padding: 10px;
+}
+.tablet4c{
+    display: flex;
+}
+.tablet4c p{
+    padding: 10px;
+}
