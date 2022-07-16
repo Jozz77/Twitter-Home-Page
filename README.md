@@ -30,7 +30,7 @@ This Twitter Homepage project helped us learn more about Positioning, flexbox an
 
 
 ## LIVE SITE
-[Huddle Page](https://jozz77.github.io/Twitter-Home-Page/)
+[Twitter Homepage](https://jozz77.github.io/Twitter-Home-Page/)
 
 ---
 ### RESOURCES
