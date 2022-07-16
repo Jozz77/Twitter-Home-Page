@@ -810,6 +810,12 @@ nav a:first-child{
 .nav2{
     display: none;
 }
+/* .tweet2{
+    display: none;
+} */
+.nav-down{
+    display: none;
+}
                                         
 @media screen and (min-width: 1005px) and (max-width: 1281px) {
     .main-container{
@@ -1679,6 +1685,12 @@ nav a:first-child{
         display: none;
     }
     .nav2{
+        display: none;
+    }
+    .tweet2{
+        display: none;
+    }
+    .nav-down{
         display: none;
     }
 }
@@ -2570,6 +2582,12 @@ nav a:first-child{
     .nav2{
         display: none;
     }
+    .tweet2{
+        display: none;
+    }
+    .nav-down{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 499px) {
@@ -2864,11 +2882,11 @@ nav a:first-child{
     }
     .top-post p{
         color: #71767b;
-        font-size: small;
+        font-size: smaller;
         padding-top: 0.5rem;
     }
     .top-post a{
-        font-size: small;
+        font-size: smaller;
         color: #1d9bf0;
         padding-left: 0.2rem;
         padding-top: 0.4rem;
@@ -2885,7 +2903,7 @@ nav a:first-child{
     .middle-post{
         display: flex;
         padding-left: 0.5rem;
-        padding-top: 1rem;
+        padding-top: 0.4rem;
     }
     .middle-post-1{
         padding-right: 0.5rem;
@@ -2918,7 +2936,7 @@ nav a:first-child{
         margin-top: 0.3rem;
         margin-right: 0.2rem;
     }
-    .middle-post-2-1 p:first-child{
+    .first-post .middle-post-2-1 p:first-child{
         font-size: 0.9rem;
         padding-right: 0.5rem;
         overflow-wrap: break-word;
@@ -2931,7 +2949,7 @@ nav a:first-child{
         padding-top: 0.4rem;
         font-size: 0.7rem;
     }
-    .middle-post-2-1 a{
+    .first-post .middle-post-2-1 a{
         color: #71767b;
         font-size: 0.9rem;
         padding-top: 0.35rem;
@@ -2947,7 +2965,7 @@ nav a:first-child{
     }
     .middle-post-2-second p{
         font-size: 0.8rem;
-        padding-bottom: 1rem;
+        padding-bottom: 0.5rem;
     }
     .middle-post-2-second a{
         color: #1d9bf0;
@@ -2956,11 +2974,11 @@ nav a:first-child{
     .middle-post-2-third img{
         height: auto;
         width: 95%;
-        border-radius: 15px;
+        border-radius: 12px;
     }
     .third-post .middle-post-2-third img{
         height: auto;
-        width: 70%;
+        width: 90%;
         border-radius: 15px;
     }
     .middle-post-2-fourth{
@@ -3106,6 +3124,7 @@ nav a:first-child{
     }
     .second-post{
         box-shadow: inset 0 -2px 3px -2px #71767b; 
+        width: 100%;
        
     }
     .second-post .middle-post-1 img{
@@ -3126,7 +3145,7 @@ nav a:first-child{
         margin-right: 0rem;
     }
     .second-post .middle-post-2-second{
-        padding-right: 2rem;
+        padding-right: 0rem;
     }
     .second-post .middle-post-2-1{
         padding-bottom: 0.5rem;
@@ -3134,12 +3153,15 @@ nav a:first-child{
     }
     .second-post .middle-post-2-1 p:first-child{
         font-size: 0.9rem;
-        padding-right: 0rem;
-        overflow-wrap: break-word;
-        width: 3rem;
-        text-overflow: none;
-        white-space: none;
-        overflow: none;
+        padding-right: 0.3rem;
+       
+    }
+    .second-post .middle-post-2-1 a{
+        color: #71767b;
+        font-size: 0.9rem;
+        padding-top: 0.35rem;
+        padding-right: 1rem;
+        
     }
     .second-post .middle-post-2-second p{
         font-size: 0.8rem;
@@ -3150,11 +3172,14 @@ nav a:first-child{
         padding: 0rem 0 1rem;
     }
     
-    .mid-icons{
+    .second-post .mid-icons{
         display: flex;
         /* justify-content: space-evenly; */
-        padding-right: 0rem;
+        margin-right: 0rem;
         width: 100%;
+    }
+    .second-post .mid-icons p{
+        margin-right: 1.5rem;
     }
     .second-post .middle-post-2-fourth{
         display: flex;
@@ -3170,6 +3195,18 @@ nav a:first-child{
     .third-post .middle-post-2-1{
         margin-right: 0rem;
     }
+    .third-post .middle-post-2-1 p:first-child{
+        font-size: 0.9rem;
+        padding-right: 0.5rem;
+       
+    }
+    .third-post .middle-post-2-1 a{
+        color: #71767b;
+        font-size: 0.9rem;
+        padding-top: 0.3rem;
+        padding-right: 0.3rem;
+        
+    }
     .third-post .middle-post-2-second{
         padding-top: 0.5rem;
         margin-bottom: 0rem;
@@ -3183,9 +3220,12 @@ nav a:first-child{
     }
     .third-post .mid-icons{
         display: flex;
-        /* justify-content: space-evenly; */
+        justify-content: space-evenly;
         padding-right: 0rem;
         width: 100%;
+    }
+    .third-post .mid-icons p{
+        margin-right: 1.5rem;
     }
     .third-post .goal{
         display: flex;
@@ -3200,6 +3240,18 @@ nav a:first-child{
         box-shadow: inset 0 -2px 4px -2px #71767b; 
         
        
+    }
+    .fourth-post .middle-post-2-1 p:first-child{
+        font-size: 0.9rem;
+        padding-right: 0.5rem;
+       
+    }
+    .fourth-post .middle-post-2-1 a{
+        color: #71767b;
+        font-size: 0.8rem;
+        padding-top: 0.5rem;
+        padding-right: 0.3rem;
+        
     }
     .fourth-post .middle-post-2-1{
         margin-right: 0rem;
@@ -3217,6 +3269,9 @@ nav a:first-child{
         padding-right: 0rem;
         width: 100%;
     }
+    .fourth-post .mid-icons p{
+        margin-right: 1.5rem;
+    }
     .fourth-post .middle-post-2-third{
         box-shadow: 0 0  0.3rem #71767b;
         width: 95%;
@@ -3228,7 +3283,7 @@ nav a:first-child{
         height: auto;
         width: 50%;
         margin-bottom: -0.2rem;
-        margin-left: 6rem;
+        margin-left: 4rem;
         margin-right: 3rem;
     }
     .nav-down{
