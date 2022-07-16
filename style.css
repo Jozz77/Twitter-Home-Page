@@ -82,6 +82,32 @@ body{
     height: auto;
     width: 1.7rem;
 }
+
+.icons{
+    display: flex;
+    padding-top: 0.8rem;
+    padding-bottom :0.8rem;
+    padding-left: 1rem;
+    
+}
+.icons:hover{
+    cursor: pointer;
+    background-color: #4b4d4e5d;
+    margin-right: -5rem;
+    margin-left: 0rem;
+   border-radius: 35px;
+    padding-right: 4rem;
+}
+.icons p{
+    font-size: 1.3rem;
+}
+.icons-img{
+    padding-right: 2rem;
+}
+.icons img{
+    height: auto;
+    width: 1.7rem;
+}
 .tweet-button button{
     background-color: #1d9bf0;
     color: #ffffff;
@@ -860,6 +886,10 @@ nav a:first-child{
         display: block;
         
       }
+      .icons:hover + .hide {
+        display: block;
+        
+      }
     .icon{
         display: flex;
         padding-top: 0.8rem;
@@ -867,6 +897,36 @@ nav a:first-child{
         padding-left: 0.5rem;
         padding-right: 0.7rem;
         
+    }
+    .icons{
+        display: flex;
+        padding-top: 0.8rem;
+        padding-bottom: 0.8rem;
+        padding-left: 0.5rem;
+        padding-right: 0.7rem;
+        
+    }
+    .icons img{
+        height: auto;
+        width: 1.7rem;
+    }
+    .icons-text{
+        display: none;
+    }
+    .icons:hover{
+        cursor: pointer;
+        background-color: #4b4d4e5d;
+        margin-right: 2.5rem;
+        margin-left: 0rem;
+       border-radius: 50%;
+        padding-right: 1rem;
+    }
+    .icons p{
+        font-size: 1.3rem;
+    }
+    .icons-img{
+        padding-right: 0rem;
+        margin-left: 0.2rem;
     }
     .icon-text{
         display: none;
@@ -1705,9 +1765,7 @@ nav a:first-child{
         padding: 0;
     
     }
-    .Search{
-        /* display: none; */
-    }
+   
     .explore{
         display: none;
     }
@@ -1716,6 +1774,9 @@ nav a:first-child{
     }
     .lists{
         display: none;
+    }
+    .profile{
+        margin-top: -3rem;
     }
     .icons-container{
         width: 20%;
@@ -1757,6 +1818,9 @@ nav a:first-child{
         padding-left: 0.5rem;
         padding-right: 0.7rem;
         
+    }
+    .icons{
+        display: none;
     }
     .icon-text{
         display: none;
@@ -3291,6 +3355,7 @@ nav a:first-child{
         justify-content: space-between;
         padding: 0.7rem 1rem;
         position: fixed;
+        width: 100%;
         bottom: 0;
         padding-left: 1.5rem;
         background-color: #000000b7;
